@@ -1,2 +1,1 @@
-# proitec-moodle-suite.github.io
-proitec-moodle-suite.github.io
+# Veja a [Documentação Oficial e Portal da Suíte ProITEC](https://proitec-moodle-suite.github.io/)

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProITEC Moodle Suite — A Jornada Gamificada para o IFRN 🎓✨</title>
+  <meta name="description" content="Transforme o curso autoinstrucional do ProITEC em uma grande aventura gamificada com o Codex, Mapa do RN, Medalhas de Conquistas e Trilhas de Progresso." />
+  
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=cabinet-grotesk@700,800,900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- JavaScript -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="brand-icon">🎓</div>
+        <span>ProITEC Gamificação</span>
+      </div>
+      <div class="nav-links">
+        <a href="#pilares">Os 4 Pilares</a>
+        <a href="#medalhas">Medalhas</a>
+        <a href="#professores">Para os Professores</a>
+        <a href="#ativacao">Como Ativar</a>
+      </div>
+      <button class="theme-btn" id="theme-toggle">
+        🌙 <span>Modo Escuro</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        ✨ IFRN · Gamificação do 9º Ano
+      </div>
+      <h1 class="hero-title">
+        Transforme o Estudo do ProITEC em uma <span class="highlight">Aventura Inesquecível!</span> 🚀
+      </h1>
+      <p class="hero-subtitle">
+        Uma experiência lúdica e engajadora criada para os alunos do 9º ano. Colecione Gemas do Conhecimento, desbrave o Mapa do Rio Grande do Norte, ganhe Medalhas de Conquistas e abra o Codex para revelar o Mapa de Dicas do Exame de Seleção do IFRN!
+      </p>
+      <div class="cta-group">
+        <a href="#pilares" class="btn-main">
+          🎮 Conhecer a Jornada do Aluno
+        </a>
+        <a href="#professores" class="btn-secondary">
+          👩‍🏫 Guia para Professores
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- OS 4 PILARES DA GAMIFICAÇÃO -->
+  <section class="container" id="pilares" style="padding-top: 3rem;">
+    <div class="section-title">
+      <span>Módulos Interativos</span>
+      <h2>Os 4 Pilares da Gamificação ProITEC</h2>
+    </div>
+
+    <div class="story-grid">
+
+      <!-- Pilar 1: Codex -->
+      <div class="story-card">
+        <div>
+          <div class="story-card-icon">📜</div>
+          <h3>Codex ProITEC</h3>
+          <p>O Livro Místico onde o aluno reúne as 4 Gemas do Conhecimento ao concluir atividades nas disciplinas. Ao completar a chave do Codex, o estudante desbloqueia a recompensa máxima: o <strong>Mapa de Dicas do Exame de Seleção do IFRN!</strong></p>
+          <img src="assets/img/codex_grande.png" alt="Codex ProITEC" class="story-card-img" />
+        </div>
+        <a href="mod_codexproitec/docs/index.html" class="story-card-link">Ver Documentação Lúdica do Codex →</a>
+      </div>
+
+      <!-- Pilar 2: Mapa -->
+      <div class="story-card">
+        <div>
+          <div class="story-card-icon">🗺️</div>
+          <h3>Mapa ProITEC</h3>
+          <p>Uma expedição geográfica e pedagógica pelo estado do Rio Grande do Norte! O aluno visualiza sua jornada evoluindo através das mesorregiões e campi do IFRN conforme conclui as etapas do curso.</p>
+          <img src="assets/img/mapa_ativo.svg" alt="Mapa ProITEC" class="story-card-img" />
+        </div>
+        <a href="mod_mapaproitec/docs/index.html" class="story-card-link">Ver Documentação Lúdica do Mapa →</a>
+      </div>
+
+      <!-- Pilar 3: Medalhas -->
+      <div class="story-card">
+        <div>
+          <div class="story-card-icon">🏆</div>
+          <h3>Medalhas ProITEC</h3>
+          <p>Uma coleção vibrante de 8 troféus e medalhas de conquistas. Cada hábito positivo de estudo (assista a videoaulas, leia livros H5P, gabarite quizzes) recompensa o estudante com uma medalha animada!</p>
+          <img src="assets/img/sentinela_do_codex.png" alt="Medalhas ProITEC" class="story-card-img" />
+        </div>
+        <a href="mod_medalhasproitec/docs/index.html" class="story-card-link">Ver Documentação Lúdica de Medalhas →</a>
+      </div>
+
+      <!-- Pilar 4: Multi Progress -->
+      <div class="story-card">
+        <div>
+          <div class="story-card-icon">📊</div>
+          <h3>Multi Progress</h3>
+          <p>Barras de progresso visuais representadas pelas Pedras do Saber. Permite ao aluno acompanhar seu avanço em tempo real em Matemática, Língua Portuguesa, Ética e Seminário.</p>
+          <img src="assets/img/pedras.png" alt="Multi Progress" class="story-card-img" />
+        </div>
+        <a href="mod_multiprogress/docs/index.html" class="story-card-link">Ver Documentação de Trilhas →</a>
+      </div>
+
+      <!-- Bloco Legado -->
+      <div class="story-card" style="opacity: 0.9;">
+        <div>
+          <div class="story-card-icon">📦</div>
+          <h3>Block Multi Progress</h3>
+          <p>O antepassado lendário! O bloco de barra de progresso original que abriu caminho para a suíte. Foi substituído com sucesso pelo módulo interativo <code>mod_multiprogress</code>.</p>
+          <img src="assets/img/design.jpg" alt="Bloco Legado" class="story-card-img" />
+        </div>
+        <a href="block_multiprogress/docs/index.html" class="story-card-link">Ver Histórico do Bloco →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BANNER DE MEDALHAS ILUSTRADO -->
+  <section class="container" id="medalhas">
+    <div class="medals-banner">
+      <span style="color:var(--gold); font-weight:800; text-transform:uppercase; font-size:0.85rem;">Galeria de Conquistas</span>
+      <h2 style="font-size:2.2rem; margin-top:0.4rem;">Medalhas que Encantam os Alunos</h2>
+      <p style="color:var(--text-muted); max-width:650px; margin:0.5rem auto 0;">Mensagens carinhosas e motivadoras surgem em tela inteira sempre que o jovem atinge um marco de aprendizagem!</p>
+
+      <div class="medals-grid">
+        <div class="medal-box"><img src="assets/img/sentinela_do_codex.png" alt="Sentinela" /><span>Sentinela</span></div>
+        <div class="medal-box"><img src="assets/img/maratonista_do_conhecimento.png" alt="Maratonista" /><span>Maratonista</span></div>
+        <div class="medal-box"><img src="assets/img/busca_pelo_saber.png" alt="Busca pelo Saber" /><span>Leitor H5P</span></div>
+        <div class="medal-box"><img src="assets/img/mestre_do_portal.png" alt="Mestre" /><span>Mestre Quiz</span></div>
+        <div class="medal-box"><img src="assets/img/amante_dos_numeros.png" alt="Matemática" /><span>Matemática</span></div>
+        <div class="medal-box"><img src="assets/img/amante_das_palavras.png" alt="Português" /><span>Português</span></div>
+        <div class="medal-box"><img src="assets/img/orgulho_da_comunidade.png" alt="Ética" /><span>Ética</span></div>
+        <div class="medal-box"><img src="assets/img/entusiasta_do_ifrn.png" alt="Seminário" /><span>Seminário</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO PARA PROFESSORES: POR QUE GAMIFICAR? -->
+  <section class="container" id="professores">
+    <div class="pitch-section">
+      <div class="section-title" style="margin-bottom:1.5rem; text-align:left;">
+        <span>Visão Pedagógica</span>
+        ## Por que utilizar estes plugins na sua sala do ProITEC?
+        <p style="color:var(--text-muted); margin-top:0.5rem;">Desenvolvido especialmente para encantar adolescentes do 9º ano sem complicar a vida do professor!</p>
+      </div>
+
+      <div class="pitch-grid">
+        <div class="pitch-item">
+          <h4>💡 Motivação sem Esforço</h4>
+          <p>Os alunos do 9º ano adoram jogos e recompensas. Ao verem gemas e medalhas sendo liberadas, a taxa de conclusão dos exercícios e videoaulas aumenta significativamente!</p>
+        </div>
+        <div class="pitch-item">
+          <h4>🎯 Foco no Exame de Seleção</h4>
+          <p>A promessa de abrir o Codex e receber o Mapa de Dicas Secreto estimula o aluno a concluir todas as 4 disciplinas da oferta ProITEC.</p>
+        </div>
+        <div class="pitch-item">
+          <h4>🧩 100% Automático</h4>
+          <p>Você não precisa entender de tecnologia! Uma vez inseridos na sala virtual, os plugins calculam sozinhos as notas, visualizações e liberam os prêmios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUIA SIMPLIFICADO DE ATIVAÇÃO PARA PROFESSORES -->
+  <section class="container" id="ativacao" style="margin-bottom: 5rem;">
+    <div class="section-title">
+      <span>Passo a Passo Simples</span>
+      <h2>Como Ativar na sua Sala Virtual Moodle</h2>
+    </div>
+
+    <div class="steps-wrapper">
+      <div class="step-box">
+        <div class="step-num">1</div>
+        <h3>Ativar Modo de Edição</h3>
+        <p>Na sua disciplina Moodle do ProITEC, clique no botão <strong>"Ativar modo de edição"</strong> no canto superior direito.</p>
+      </div>
+      <div class="step-box">
+        <div class="step-num">2</div>
+        <h3>Adicionar Atividade</h3>
+        <p>No tópico desejado, clique em <strong>"Adicionar uma atividade ou recurso"</strong> e escolha <em>Codex</em>, <em>Mapa</em>, <em>Medalhas</em> ou <em>Multi Progress</em>.</p>
+      </div>
+      <div class="step-box">
+        <div class="step-num">3</div>
+        <h3>Pronto! Os alunos já jogam</h3>
+        <p>Salve a atividade. O Moodle cuidará de rastrear o progresso, exibir o mapa e conceder as medalhas aos estudantes!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2025-2026 <strong>DEAD/ZL · IFRN</strong> — Diretoria de Educação Aberta e a Distância do Instituto Federal do Rio Grande do Norte.</p>
+      <p style="font-size:0.85rem; margin-top:0.5rem;">Desenvolvido com carinho para inspirar os estudantes do ProITEC rumo ao IFRN! 🎓✨</p>
+    </div>
+  </footer>
+
+</body>
+</html>
